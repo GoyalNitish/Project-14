@@ -74,25 +74,25 @@ function draw() {
   }
  
   if (arrowGroup.isTouching(redB)){
-    redB.desttoryEach();
-    arrowGroup.desttoryEach();
+    redB.destroyEach();
+    arrowGroup.destroyEach();
     score=score+1;
   }
 
   if (arrowGroup.isTouching(blueB)){
-    blueB.desttoryEach();
-    arrowGroup.desttoryEach();
+    blueB.destroyEach();
+    arrowGroup.destroyEach();
     score=score+3;
   }
 
   if (arrowGroup.isTouching(greenB)){
-    greenB.desttoryEach();
-    arrowGroup.desttoryEach();
+    greenB.destroyEach();
+    arrowGroup.destroyEach();
     score=score+2;
   }
   if (arrowGroup.isTouching(pinkB)){
-    pinkB.desttoryEach();
-    arrowGroup.desttoryEach();
+    pinkB.destroyEach();
+    arrowGroup.destroyEach();
     score=score+5;
   }
 
